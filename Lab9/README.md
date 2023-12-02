@@ -3,7 +3,7 @@
 Write a local-search algorithm (eg. an EA) able to solve the *Problem* instances 1, 2, 5, and 10 on a 1000-loci genomes, using a minimum number of fitness calls. That's all.
 
 ## Notes
-I try different approach (steady state, generational + elitism, promoting diversity in particularly with segregation, different crossover and different mutation) and for each *Problem* instances I show the best approach for me.
+I experiment with various approaches (steady state, generational + elitism, promoting diversity in particularly with segregation, different crossover and different mutation) and for each *Problem* instances I identify the best approach to me.
 
 ### *Problem* instances 1
 best approach: 
