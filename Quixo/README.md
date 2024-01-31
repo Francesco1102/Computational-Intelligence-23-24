@@ -6,8 +6,7 @@ components:
 
 agents:
   - Initially, I attempted to create a Q-Learning agent. When it encounters a state that is symmetric to another state already in the Q-table, it uses the existing entry instead of creating a new one. However, this alone was not sufficient to reduce the size of the Q-table to a reasonable dimension. Consequently, I opted to design a new, more effective agent that does not rely on a table.
-  - Applied Alpha-Beta Pruning
-  - In the Minimax Agent, I can determine the depth of its evaluation of future states. The evaluation of states is conducted as follows:
+  - In the Minimax Agent (Applied Alpha-Beta Pruning), I can determine the depth of its evaluation of future states. The evaluation of states is conducted as follows:
     - If the winner is 1, return -inf
     - If the winner is 0, return inf.
     - Assign higher points to the player with more tiles in the same column/row/diagonal.
